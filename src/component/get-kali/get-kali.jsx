@@ -7,6 +7,8 @@ const GetKali = () => {
     return (
         <>
                 <Navbar/>
+                <h1>Get Kali</h1>
+                
         </>
     )
 }
