@@ -6,7 +6,7 @@ import Navbar from '../navbar/navbar'
 const GetKali = () => {
     return (
         <>
-                <Navbar/>
+                <Navbar bg="navbar-light"/>
                 <h1>Get Kali</h1>
                 
         </>

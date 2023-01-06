@@ -7,6 +7,24 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 65px;
+    &.navbar-light{
+        position: relative;
+        padding: 4px 65px;
+        box-shadow: 0px 2px 3px #00000025;
+        .logo{
+            img{
+                filter: brightness(1);
+            }
+        }
+        .menu{
+            
+        .menu-li .menu-link {
+            color: #242738;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        }
+    }
 
     .logo {
         img {

@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
 
-const Blog = () => {
+const Blog = (props) => {
   return (
     <>
-      <Navbar/>
+      <Navbar bg="navbar-light"/>
+      <h1>{props.name}</h1>
     </>
   )
 }

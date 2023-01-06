@@ -1,4 +1,5 @@
 import React from 'react'
+import './main.scss'
 
 const Main = () => {
     return (
@@ -7,7 +8,7 @@ const Main = () => {
 
         <section id="kali-highlights">
             <div>
-                <div>
+                <div className='highlight'>
                     <h1>The Industry Standard</h1>
                 </div>
             </div>

@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom'
 import logo from './../header/img/kali-logo.svg'
 import './navbar.scss'
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <>
-    
-    <nav className="navbar">
-            <Link to="" className="logo">
+    <nav className={"navbar " + props.bg}>
+            <Link to="/" className="logo">
                 <img src={logo} alt=""/>
             </Link>
                 <ul className="menu">
