@@ -1,10 +1,79 @@
-.highlight h1{
-    font-size: 45px;
-    color: #202738;
-    text-align: center;
-}
-h3{
-    font-size: 26px;
-    font-weight: 400;
-    text-align: center;
+section {
+    padding: 120px 0;
+    background-color: #f9f9f9;
+    &.bg-light{
+        background-color: #fff;
+    }
+    &.kali-everywhere{
+        background: #f9f9f9 url('./img/neon-background.svg');
+        background-size: cover;
+        background-position: 50%;
+        text-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    }
+    .highlight{
+            width: 90%;
+            max-width: 700px;
+            margin: auto;
+        h1{
+            font-size: 45px;
+            color: #202738;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        h2{
+            font-size: 32px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 26px;
+        }
+        h3{
+            font-size: 26px;
+            font-weight: 400;
+            text-align: center;
+        }
+        p{
+            font-size: 19px;
+            color: #636363;
+            margin: 19px 0;
+            text-align: center;
+        }
+    } 
+    .highlight-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1110px;
+        margin: auto;
+        .card{            
+            width: 370px;
+            line-height: 1.8;
+            padding: 20px 20px 0;
+            h4{
+                color: #242738;
+            }
+            p{
+                color: #636363;
+                font-size: 15px;
+            }
+        }
+    }
+    figure {
+        position: relative;
+        max-width: 1340px;
+        margin: 60px auto 100px;
+        width: 90%;
+        img:first-child {
+            width: 100%;
+            margin-top: -2.5%;
+            margin-left: -3.5%;
+            height: auto;
+        }
+        img:last-child {
+            position: absolute;
+            width: 77%;
+            left: 8%;
+            border-radius: 4px;
+            top: 2%;
+        }
+    }
 }
