@@ -118,6 +118,20 @@ const Main = () => {
             
     </section>
             
+        <section className='bg-light'>
+            <div className='highlight'>
+                <h1>Choose the desktop you prefer</h1>
+            </div>                
+        
+            
+    </section>
+        <section>
+            <div className='highlight'>
+                <h2>Latest news from our blog</h2>
+            </div>                
+        
+            
+    </section>
         
         </>
     )
