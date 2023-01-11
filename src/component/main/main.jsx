@@ -2,6 +2,12 @@ import React from 'react'
 import './main.scss'
 import notebook1 from './img/notebook.svg'
 import notebook from './img/notebook-kali-2022.jpg'
+import b1 from './img/logo-gnome.svg'
+import c1 from './img/logo-kde.svg'
+import a1 from './img/logo-xfce.svg'
+import a from './img/kali-desktop-gnome.jpg'
+import b from './img/kali-desktop-kde.jpg'
+import c from './img/kali-desktop-xfce.jpg'
 
 const highlight_card = [
     {
@@ -121,7 +127,62 @@ const Main = () => {
         <section className='bg-light'>
             <div className='highlight'>
                 <h1>Choose the desktop you prefer</h1>
-            </div>                
+            </div>
+        <div className="desktop_prefer_main">
+            <div className="desktop_prefer">
+                <div className="grid-row">
+                    <div className="text-content">
+
+                        <h3><img src={a1} alt="jjj" /> Xfce</h3>
+                        <p>
+                        Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.
+                        </p><br></br>
+                        <p>
+                        Xfce consists of separately packaged parts that together provide all functions of the desktop environment, but can be selected in subsets to suit user needs and preferences. This is Kali's default desktop environment.
+                        </p>
+                    </div>
+                    <div className="img-content">
+                        <img src={a} alt="hii" />
+                    </div>
+                </div>
+            </div>
+            <div className="desktop_prefer">
+                <div className="grid-row">
+                    
+                <div className="img-content right">
+                        <img src={b} alt="hii" />
+                    </div>
+                    <div className="text-content">
+
+                        <h3><img src={b1} alt="hh" /> Xfce</h3>
+                        <p>
+                        Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.
+                        </p>
+                        <p>
+                        Xfce consists of separately packaged parts that together provide all functions of the desktop environment, but can be selected in subsets to suit user needs and preferences. This is Kali's default desktop environment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="desktop_prefer">
+                <div className="grid-row">
+                    <div className="text-content">
+
+                        <h3><img src={c1} alt="jj" /> Xfce</h3>
+                        <p>
+                        Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.
+                        </p>
+                        <p>
+                        Xfce consists of separately packaged parts that together provide all functions of the desktop environment, but can be selected in subsets to suit user needs and preferences. This is Kali's default desktop environment.
+                        </p>
+                    </div>
+                    <div className="img-content">
+                        <img src={c} alt="hii" />
+                    </div>
+                </div>
+            </div>
+</div>
         
             
     </section>

@@ -76,4 +76,52 @@ section {
             top: 2%;
         }
     }
+    .desktop_prefer_main{
+        max-width: 1440px;
+        margin: auto;
+        .desktop_prefer{
+            padding: 20px 75px;
+            margin: 60px auto;
+            .grid-row{
+                display: flex;
+                .text-content{
+                    max-width: 400px;
+                    margin: auto;
+                    h3{
+                        font-size: 26px;
+                        font-weight: 700;
+                        margin-bottom: 1rem;
+                        img{
+                            display: inline-block;
+                            height: 1.77em;
+                            margin: .166em;
+                            margin-right: .4em;
+                            vertical-align: -.6em;
+                            border-radius: 999px;
+                            box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+
+                        }
+                    }
+                    p{
+                        line-height: 1.8;
+                        font-size: 16px;
+                        color: #636363;
+                    }
+                }
+                .img-content{
+                    height: 370px;
+                    margin-left: 60px;
+                    &.right{
+                        margin-right: 60px;
+                        margin-left: 0;
+                    }
+                    img{
+                        border-radius: 6px;
+                        box-shadow: 0 10px 50px rgb(0 0 0 / 40%);
+                    }
+                }
+            }
+        }
+    }
+
 }
