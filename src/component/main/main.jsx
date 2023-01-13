@@ -8,7 +8,7 @@ import a1 from './img/logo-xfce.svg'
 import a from './img/kali-desktop-gnome.jpg'
 import b from './img/kali-desktop-kde.jpg'
 import c from './img/kali-desktop-xfce.jpg'
-
+import blog_data from './../blog/blog_data'
 const highlight_card = [
     {
         h4: "Make Your Job Easier",
@@ -188,9 +188,30 @@ const Main = () => {
             </section>
             <section>
                 <div className='highlight'>
-                    <h2>Latest news from our blog</h2>
+                    <h2 className='text-left'>Latest news from our blog</h2>
                 </div>
+                <div className="blog_row">
+                    
+        {blog_data.slice(0, 4).map(data => {
+          return (
+            <>
+              <div className="blog_card" key={data.key}>
+                <div className="img">
+                    <img src={data.img} alt="" />
+                </div>
+                <div className="card_body">
+                    <h4 className='main_text'>{data.main_text}</h4>
+                    <p className='desc'>{data.desc}</p>
+                </div>
+                <div className="card_bottom">
+                    <h6 className='date'>{data.date}</h6>
+                </div>
+              </div>
+            </>
+          )
 
+        })}
+                </div>
 
             </section>
 
