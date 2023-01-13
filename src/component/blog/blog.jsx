@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
+import './blog.scss'
 import img1 from './img/01.jpg'
 import img2 from './img/02.jpg'
 import img3 from './img/03.jpg'
@@ -76,7 +77,7 @@ const Blog = (props) => {
   return (
     <>
       <Navbar bg="navbar-light" />
-      <h1>Kali Linux Blog</h1>
+      <h1 className='page-title'>Kali Linux Blog</h1>
       <div className="blog_main">
 
         {blog_data.map(data => {
@@ -84,8 +85,10 @@ const Blog = (props) => {
             <>
               <div className="blog_card" key={data.key}>
                 <img src={data.img} alt="" />
-                <h4>{data.main_text}</h4>
-                <p>{data.desc}</p>
+                <h6 className='date'>{data.date}</h6>
+                <h4 className='main_text'>{data.main_text}</h4>
+                <p className='desc'>{data.desc}</p>
+                <button className='btn-blog'>READ MORE</button>
               </div>
             </>
           )
