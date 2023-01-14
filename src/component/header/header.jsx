@@ -5,6 +5,7 @@ import hero_img from './img/kali-dragon-icon.svg'
 import Navbar from '../navbar/navbar'
 import { Link } from 'react-router-dom'
 import Main from '../main/main'
+import Footer from '../footer/footer'
 
 const Header = () => {
   return (
@@ -31,6 +32,7 @@ const Header = () => {
             </header>
 
             <Main/>
+            <Footer/>
     </>
   )
 }
