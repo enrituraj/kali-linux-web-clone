@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../navbar/navbar'
 import './blog.scss'
 import blog_data  from './blog_data'
-const Blog = (props) => {
+const Blog = () => {
   return (
     <>
       <Navbar bg="navbar-light" />

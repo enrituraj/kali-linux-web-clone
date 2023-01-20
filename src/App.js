@@ -11,7 +11,7 @@ const App = () => {
     <Routes>
         <Route exact path="/" element={ <Header/> } />
         <Route exact path="get-kali" element={ <GetKali/> } />
-        <Route exact path="blog" element={ <Blog name="blg"/> } />
+        <Route exact path="blog" element={ <Blog/> } />
     </Routes>
 
     </>
